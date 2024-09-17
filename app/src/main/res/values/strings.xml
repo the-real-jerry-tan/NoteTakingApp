@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+    Copyright (C) 2024 [Your Name]. All Rights Reserved.
+    String resources for the NoteTakingApp project.
+-->
+<resources>
+    <string name="app_name">NoteTakingApp</string>
+</resources>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+    Copyright (C) 2024 [Your Name]. All Rights Reserved.
+    Layout file for the main activity of the NoteTakingApp project.
+-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Input field for the user to type their note -->
+    <EditText
+        android:id="@+id/noteEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Write your note here" />
+
+    <!-- Button to save the note -->
+    <Button
+        android:id="@+id/saveButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Save Note"
+        android:layout_marginTop="16dp"/>
+
+    <!-- TextView to display the saved note -->
+    <TextView
+        android:id="@+id/savedNoteTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Your saved note will appear here"
+        android:textSize="16sp"/>
+</LinearLayout>
